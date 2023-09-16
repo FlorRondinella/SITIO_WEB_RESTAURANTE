@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="reservas, Palermo"> <!-- etiqueta para colocar palabras claves sólo de este html reservas -->
+    <meta name="description" content="En este restaurante ubicado en Palermo se pueden realizar reservas para parejas o contingentes"> <!-- etiqueta para colocar breve descripción que a su vez contiene las keywords sólo de este html-->
+    <link rel="shortcut icon" href="../img/logo.ico" type="image/x-icon"> <!-- etiqueta para el logo -->
+    <title>RESERVAS</title>
+</head>
+<body>
+    
+    <header>
+        <!-- no olvidar poner el nav para hacer la barra de navegación -->
+        <nav> 
+            <!-- hipervínculos de la barra de nav con etiqueta "a" -->
+            <a href="../index.html">INICIO</a>
+            <a href="NOSOTROS.html">NOSOTROS</a>
+            <a href="CARTA.html">CARTA</a> 
+            <a href="RESERVAS.html">RESERVAS</a>
+            <a href="CONTACTO.html" target="_blank">CONTACTO</a>  <!--el target y blank es para que la pág abra en otra pestaña-->
+        </nav>
+
+    </header>
+
+
+
+
+
+    <h1>RESERVAS/RESERVATIONS</h1>
+
+
+
+
+
+    <main>
+
+
+        <section> <!-- ÉSTA ES LA SECCIÓN 1-->
+            <h3>Reservá una mesa / <i> Book a table</i></h3>
+                <p><b>Puedes reservar en cualquier momento online o llamando al (011) 785 62343 durante nuestras horas operativas</b> / <i>You may make a reservation any time online or by calling (011) 785 62343 during our hours of operation:</i></p>
+
+            <h4>Horas Operativas:</h4>
+                <dl>
+                    <dt>Lunes a Jueves</dt>
+                        <dd>11am a 9pm</dd>
+                    <dt>Viernes</dt> 
+                        <dd>11am a 10pm</dd>
+                    <dt>Sábado</dt> 
+                        <dd>5pm a 10pm</dd>
+                    <dt>Domingo</dt> 
+                        <dd>11am a 9pm</dd>
+                </dl>
+        </section>
+
+<br>
+<hr>
+
+
+        <section><!-- ESTA ES LA SECCION 2-->
+        <!-- El div es BLOQUE 1 -->
+            <div>
+                <ul> <!-- esto es una lista desordenada dependiente -->
+                    <li>Lunes</li>
+                        <ul>
+                            <li>Cerrado</li>
+                        </ul> 
+                    <li>Martes</li>
+                        <ul>
+                            <li>Cerrado</li>
+                        </ul> 
+                    <li>Miércoles</li>
+                        <ul>
+                            <li>Almuerzo</li>
+                                <ul>
+                                    <li>12am a 15pm</li>
+                                </ul>
+                            <li>Cena</li>
+                                <ul>
+                                    <li>20pm a 00pm</li>
+                                </ul>
+                        </ul>
+                    <li>Jueves</li>
+                        <ul>
+                            <li>Almuerzo</li>
+                                <ul>
+                                    <li>12am a 15pm</li>
+                                </ul>
+                            <li>Cena</li>
+                                <ul>
+                                    <li>20pm a 00pm</li>
+                                </ul>
+                        </ul>
+                    <li>Viernes</li>
+                        <ul>
+                            <li>Almuerzo</li>
+                                <ul>
+                                    <li>12am a 15pm</li>
+                                </ul>
+                            <li>Cena</li>
+                                <ul>
+                                    <li>20pm a 2am</li>
+                                </ul>
+                        </ul>
+                    <li>Sábado</li> 
+                        <ul>
+                            <li>Almuerzo</li>
+                                <ul>
+                                    <li>12am a 15pm</li>
+                                </ul>
+                            <li>Cena</li>
+                                <ul>
+                                    <li>20pm a 2am</li>
+                                </ul>
+                        </ul>  
+                    <li>Domingo</li>
+                        <ul>
+                            <li>Cerrado</li>
+                        </ul>      
+                </ul>
+            </div>
+        </section>
+
+
+        
+
+
+
+
+
+        <section> <!-- ÉSTA ES LA SECCIÓN 3-->
+            <h2>Lista de definición</h2> 
+
+            <b><p>Opciones</p></b>
+
+                    <dl>
+                        <dt>Almuerzo</dt>
+                            <dd>11am a 15pm</dd>
+                        <dt>Cena</dt> 
+                            <dd>11am a 15pm</dd>
+                    </dl>
+        </section>
+
+
+
+
+
+
+
+        <section>   <!-- ÉSTA ES LA SECCIÓN 4-->
+            <h2>Formularios</h2>
+            <!-- <form action="aca va la url de la pagina "formspree" method="post"></form> -->
+                <div>
+                    <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" required placeholder="María">
+                </div>
+                
+                <br> <!-- para separar desde html -->
+
+                <div>
+                    <label for="apellido">Apellido</label>
+                        <input type="text" name="apellido" id="apellido">
+                </div>
+
+                <br> <!-- para separar desde html -->
+
+                <div>
+                    <label for="">Fecha de nacimiento</label>
+                        <input type="date" name="fn" id="fn">
+                </div>
+
+                <br> <!-- para separar desde html -->
+
+                <div>
+                    <label for="edad">Edad</label>
+                        <input type="number" name="edad" id="edad" min="18"> <!-- para limitar los  minimos y maximos poner min y max como atributos-->
+                </div>
+
+                <br> <!-- para separar desde html -->
+
+                <div>
+                    <label for="genero">Seleccione su género:</label>
+                        <select name="genero" id="genero">  
+                            <option value="F">F</option>
+                            <option value="M">M</option>
+                        </select>
+                </div>
+
+                <br> <!-- para separar desde html -->
+
+                <div>
+                    <input type="radio" name="area" id="app web" value="app web">  
+                    <label for="app web">App Web</label>
+                                                                    <!--las opciones deben tener el mismo nombre en name para seleccionar solo una opcion-->
+                    <input type="radio" name="area" id="python" value="python">
+                    <label for="python">Python</label>
+                </div>
+
+
+                <br> <!-- para separar desde html -->
+
+                <div>
+                    <input type="submit" value="ENVIAR">
+                    <input type="reset" value="BORRAR">
+                </div>
+
+                <br> <!-- para separar desde html -->
+
+                <div>
+                    <input type="checkbox" name="tecnologias" id="html" value="html"> <!--aunque puse a todos el mismo name, me permite seleccionar todas igual porque asi funciona checkbox-->
+                    <label for="html">HTML</label>
+
+                    <input type="checkbox" name="tecnologias" id="css" value="css">
+                    <label for="css">CSS</label>
+
+                    <input type="checkbox" name="tecnologias" id="js" value="js">
+                    <label for="js">JS</label>
+                </div>
+
+                <br> <!-- para separar desde html -->
+                <hr> <!-- para separar desde html -->
+
+                <div>
+                    <label for="navegador">Seleccione navegador:</label>
+                        <input list="browsers" id="navegador" name="navegador">
+                            <datalist id="browsers">
+                                <option value="Chrome"></option>
+                                <option value="Opera"></option>
+                                <option value="Firefox"></option>
+                                <option value="Edge"></option>
+                                <option value="Safari"></option>
+                            </datalist>
+                </div>
+
+                <br> <!-- para separar desde html -->
+
+                <div>
+                    <fieldset>
+                        <legend>Datos personales</legend>
+                        <div>
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" name="telefono" id="telefono">
+                        </div>
+                        <div>
+                            <label for="mail">Mail</label>
+                            <input type="mail" name="mail" id="mail">
+                        </div>
+                    </fieldset>
+                </div>
+
+                <br> <!-- para separar desde html -->
+
+                <div>
+                    <label for="comentario">Mensaje</label>
+                        <textarea name="comentario" id="comentario" cols="30" rows="10" maxlength="30" placeholder="Escriba aquí su mensaje"></textarea>
+                </div>             
+        </section>
+
+    </main>
+
+
+
+
+
+
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <h3>Todos los derechos reservados.</h3>
+    </footer>
+
+
+    
+
+</body>
+</html>

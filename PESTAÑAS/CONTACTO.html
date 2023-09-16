@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="contacto, redes sociales"> <!-- etiqueta para colocar palabras claves sólo de este html contacto -->
+    <meta name="description" content="Contactanos desde nuestras redes sociales"> <!-- etiqueta para colocar breve descripción que a su vez contiene las keywords sólo de este html-->
+    <link rel="shortcut icon" href="../img/logo.ico" type="image/x-icon"> <!-- etiqueta para el logo -->
+    <title>CONTACTO</title>
+</head>
+<body>
+
+   
+    
+    <h1>CONTACTO / CONTACT US</h1>
+
+
+
+ <main>
+    <h3>MANDANOS UN MENSAJE / SEND US A MESSAGE</h3>
+    <p><b>Nos encantaría saber de usted / We would love to hear from you</b></p>
+
+<br>
+<br>
+
+    <section>
+        <form action="https://formspree.io/f/xjvqwryb" method="post"> <!--en action va la url de pag formspree-->
+            <div>
+                <label for="genero">Género (opcional):</label>
+                    <select name="genero" id="genero">  
+                        <option value="Sr">Masculino</option>
+                        <option value="Sra">Femenino</option>
+                        <option value="Sta">Otro</option>
+                    </select>
+            </div> 
+
+            <br>
+
+            <div>
+                <label for="nombre">Nombre/s*</label>
+                    <input type="text" name="nombre" id="nombre" required placeholder="Ingrese aquí su nombre">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="apellido">Apellido/s</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Ingrese aquí su apellido">
+            </div>
+
+            <br>
+
+            <div>
+                <input type="radio" name="area" id="consulta" value="consulta">  
+                <label for="consultas">Consultas</label>
+
+                <input type="radio" name="area" id="reclamos" value="reclamos">
+                <label for="reclamos">Reclamos</label>
+
+                <input type="radio" name="area" id="sugerencias" value="sugerencias">
+                <label for="sugerencias">Sugerencias</label>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="telefono">Teléfono*</label>
+                    <input type="tel" name="telefono" id="telefono" required placeholder="(011) 00000000">
+            </div>
+                    <br>
+            <div>
+                <label for="mail">Mail*</label>
+                    <input type="mail" name="mail" id="mail" required placeholder="via@outlook.com">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="">Fecha actual*</label>
+                    <input type="date" name="fn" id="fn" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="comentario">Mensaje*</label>
+                    <textarea name="comentario" id="comentario" cols="30" rows="10" maxlength="100" placeholder="Escriba aquí su mensaje"></textarea>
+            </div>
+
+            <br>
+
+            <div>
+                <input type="submit" value="ENVIAR FORMULARIO">
+                <input type="reset" value="BORRAR">
+            </div>
+        </form>
+    </section>
+ </main>
+
+
+
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <h3>Todos los derechos reservados.</h3>
+    </footer>
+
+
+
+
+
+</body>
+</html>

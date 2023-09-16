@@ -1,0 +1,87 @@
+
+/*Para eliminar cualquier relleno o separación que hay x defecto alrededor de un párr, div, etc. (ej: para que no haya una separacion a los costados entre el nav y el borde de la pantalla)*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/*----------------------------------------*/
+
+/*Elimino comportamiento en bloque del nav y el div donde está el logo para que quede todo en una misma línea*/
+.header-linea{
+    display: inline-block;
+    padding-right: 27vw; /*(relleno a la derecha del menú)*/
+   padding-top: 1vh;
+}
+
+/*Estilo para el logo*/
+.logo{
+    width: 4vw; /*poner la medida en vista de ancho (vw) para que sea responsive */
+    height: auto; /*el "auto" se ajusta al tamaño definido en el ancho y a lo que ocupa el encabezado*/
+    border-radius: 50%;     /*para hacerlo redondeado. Tmb puedo definir una medida para c/ borde: 0% arriba 50% abajo 0% 50% */
+    box-shadow: 0.2vw 0.2vw 0.2vw 0.2vw rgba(189, 190, 191, 0.8);     /*sombra para cada lado en vw para que sea responsive */
+}
+
+/*Estilo para el encabezado*/
+header{    /*afecta al div con el logo y al nav*/
+    background-color: rgb(248, 248, 158);
+    /*height: 7vh; *//*para definir la altura del encabezado. El vh es vista de altura*/
+    height: 9vh;  
+    text-align: end; /*para alinear el nav*/
+    position: fixed; /*esto es para que el nav no desaparezca al hacer scroll*/
+    padding-left: 3vw;
+}
+
+/*Estilo para las etiquetas "a" del nav*/
+.menu{
+    text-decoration: none; /*le saca el subrayado a cada pestaña*/
+    font-size: 1.6vw; /*no le agrego medida de vh porque no funcionará el resposive a lo ancho - explicado x profesora*/
+    color: black;  
+}
+/*------------------------------------------*/
+.seccion1{
+    background-image: url("../img/fondominimalista.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-top: 20vh; /*es para separar la seccion 1 del encabezado*/
+}
+
+#reservatumesa{
+    padding-top: 20vh;
+    font-size: 3vw;
+    text-align: center;
+    font-family: "Merriweather"; /*esta me la traje de Google Fonts cuyos 3 links están pegados en el <head> del html*/
+    font-weight: 600;
+}
+
+
+
+
+
+/*------------------------------------------*/
+/*Estilo para el pie de página*/
+footer{
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    color: white;
+}
+
+
+/*Para bajar un poco el texto del pie de pagina*/
+.texto-derechos{
+    padding-bottom: 4vh;
+    font-size: 1.5vw; /*no le agrego medida de vh porque no funcionará el resposive a lo ancho - explicado x profesora*/
+}
+
+.mapa{
+    width: 20vw; /*no le agrego medida de vh porque no funcionará el resposive a lo ancho - explicado x profesora*/
+}
+
+
+
+
+/*margin: 5vw 5vh 5vw 5vh   es por ej para aplicarle un margen de todos los lados a un párrafo*/
+/*padding: 10vw  es para ponerle una separacion extra (relleno) del parrafo respecto del div*/
+
+
